@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#info p {
+    font-weight: bold;
+}
+
+.head-context{
+    font-size: 32px;
+}
+
+#info::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid;
+}
+
+.skills-header{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-context{
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.skills-context-item{
+    margin-top: 10px;
+}
+
+.bold{
+    font-weight: bold;
+    display: inline-block;
+}
+
+.light{
+    display: inline-block;
+}
+
+#skills::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid;
+}
+
+.employment-company-head-1{
+    margin-top: 15px;
+}
+
+.e-bold-1{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.e-bold-2{
+    font-weight: bold;
+}
+
+.e-italic{
+    font-style: italic;
+}
+
+.employment-company-context-1{
+    margin-top: 25px;
+}
+
+.ec-head{
+    font-weight: bold;
+}
+
+.ec-list{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.employment-company-head-2{
+    margin-top: 20px;
+}
+
+.e2-bold{
+    font-weight: bold;
+}
+
+.e2-italic{
+    font-style: italic;
+}
+
+.ec2-head{
+    font-weight: bold;
+}
+
+.employment-company-context-2{
+    margin-top: 25px;
+}
+
+.ec2-list{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.employment-company-head-3{
+    margin-top: 20px;
+}
+
+.e3-bold{
+    font-weight: bold;
+}
+
+.e3-italic{
+    font-style: italic;
+}
+
+.ec3-head{
+    font-weight: bold;
+}
+
+.ec3-list{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.employment-company-context-3{
+    margin-top: 25px;
+}
+
+#employment::after{
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border-bottom: 2px solid;
+}
+
+.ed-head{
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.ed-context{
+    margin-left: 40px;
+}
+
+.ed-context > p{
+    margin-top: 5px;
+}
+
+.ed-context-italic{
+    font-style: italic;
+}
+
+.ec-list-margin{
+    margin-top: 30px;
+}
